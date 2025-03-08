@@ -1,0 +1,114 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Center navigation */
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.content-box {
+    background-color: #2e2e2e; /* Charcoal grey background */
+    color: #fff; /* White text color */
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+#about {
+    background-color: #e2e2e2;
+}
+
+#projects {
+    background-color: #f9f9f9;
+}
+
+#contact {
+    background-color: #e2e2e2;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    section {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
